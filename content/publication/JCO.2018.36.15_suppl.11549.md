@@ -18,7 +18,7 @@ url_video = ""
 
 [[authors]]
     name = "Nathan David Seligson"
-    is_member = true
+    is_member = false
 [[authors]]
     name = "Esko Antero Kautto"
     is_member = true

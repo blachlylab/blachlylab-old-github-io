@@ -1,5 +1,5 @@
 +++
-abstract = "Lucas et al explored the clonal dynamics of chronic lymphocytic leukemia (CLL) patients following treatment and subsequent acquired resistance to ibrutinib and then venetoclax. They report different patterns of resistance mutations from previously reported changes following venetoclax treatment in the absence of prior BTK inhibitor therapy."
+abstract = "Targeted therapies have substantially altered the natural history of chronic lymphocytic leukemia (CLL). Venetoclax, an inhibitor of BCL2 apoptosis regulator (BCL2), shows considerable efficacy, including in patients who have relapsed after ibrutinib.1 In the ibrutinib-refractory setting, overall response rate to venetoclax is 65%, with median progression-free survival of 23.5 months.1 This progression-free survival is considerably lower than in patients not previously treated with ibrutinib,2 suggesting potential distinct resistance mechanisms in this population."
 abstract_short = "Short version of abstract."
 date = "2020-03-12T16:37:31+02:00"
 image = ""
@@ -11,7 +11,7 @@ selected = false
 title = "Novel BCL2 mutations in venetoclax-resistant, ibrutinib-resistant CLL patients with BTK/PLCG2 mutations"
 url_code = ""
 url_dataset = ""
-url_pdf = "https://ashpublications.org/blood/article/135/24/2192/452767/Novel-BCL2-mutations-in-venetoclax-resistant"
+url_pdf = "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7290091/"
 url_project = "/project/research"
 url_slides = ""
 url_video = ""
@@ -20,16 +20,16 @@ url_video = ""
     name = "Fabienne Lucas"
     is_member = false
 [[authors]]
-    name = "Karilyn Larkin"
+    name = "Karylin Larkin"
     is_member = false
 [[authors]]
-    name = "Charles Thomas Gregory"
+    name = "Thomas Gregory"
     is_member = true
 [[authors]]
     name = "Shelley Orwick"
     is_member = false
 [[authors]]
-    name = "Tj Doong"
+    name = "Tzyy-Jye Doong"
     is_member = false
 [[authors]]
     name = "Arletta Lozanski"
@@ -53,18 +53,18 @@ url_video = ""
     name = "Shanmugapriya Thangavadivel"
     is_member = false
 [[authors]]
-    name = "Ayse Selen Yilmaz"
+    name = "Selen A. Yilmaz"
     is_member = false
 [[authors]]
     name = "Kerry A. Rogers"
     is_member = false
 [[authors]]
-    name = "John Byrd"
+    name = "John C. Byrd"
     is_member = false
 [[authors]]
     name = "Jennifer A. Woyach"
     is_member = false
 [[authors]]
-    name = "James Blachly"
+    name = "James S. Blachly"
     is_member = true
 +++
