@@ -15,6 +15,16 @@ title = "Thomas Gregory"
     link = "mailto:charles.gregory@osumc.edu"
 
 [[social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "https://twitter.com/thomasgcompb?lang=en"
+
+[[social]]
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.com/citations?user=Bfo0sOsAAAAJ&hl=en"
+
+[[social]]
     icon = "github"
     icon_pack = "fa"
     link = "https://github.com/charlesgregory"

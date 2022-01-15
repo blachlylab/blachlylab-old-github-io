@@ -7,21 +7,80 @@ canonifyurls = true
 theme = "hugo-academic-group"
 title = "Blachly Lab"
 math = true
-copyright = "&copy; Blachly Lab, 2022 "
+copyright = "&copy; Blachly Lab, 2022"
 
 [taxonomies]
 category = "categories"
 tag = "tags"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   description = "Website of research group"
   author = "James Blachly"
   email = "james.blachly@osumc.edu"
-  address = "460 W 10th Ave, Columbus, OH 43210"
-
+  address = '<a href="https://www.google.com/maps?q=460+W+10th+Ave,+Columbus,+OH+43210&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiTzeWW6bL1AhXPLc0KHeUzBycQ_AUoAXoECAEQAw">460 W 10th Ave, Columbus, OH 43210, United States</a>'
   slogan = "BLACHLY LAB"
+  slogan_icon = "img/lab_logo.png"
   slogan_text = "Leverage emerging genome technologies to advance the understanding and treatment of leukemia"
+
+ [params.logo]
+    image = "img/lab_logo.png"
+
+  [[params.navbar_hierarchy]]
+    name = "Blachly Lab"
+    position = 1
+  
+  [[params.sponsors]]
+    name = "OSTOR"
+    link = "https://cancer.osu.edu/for-cancer-researchers/resources-for-cancer-researchers/orien"
+    image = "/img/ORIEN_Logo.png"
+  [[params.sponsors]]
+    name = "ASTOR"
+    link = "https://www.allianceforclinicaltrialsinoncology.org/main/public/standard.xhtml?path=%2FPublic%2FFoundation"
+    image = "/img/Alliance_Foundation_Logo.png"
+  [[params.sponsors]]
+    name = "HCLF"
+    link = "https://www.hairycellleukemia.org/"
+    image = "/img/HCLF.png"
+  [[params.sponsors]]
+    name = "SASS"
+    link = "https://sassfoundation.org/"
+    image = "/img/SASS.png"
+  [[params.sponsors]]
+    name = "NCCN"
+    link = "https://www.nccn.org/"
+    image = "/img/NCCN.png"
+  [[params.sponsors]]
+    name = "PELO"
+    link = "https://www.pelotonia.org/"
+    image = "/img/pelotonia.png"
+  [[params.sponsors]]
+    name = "OSUSC"
+    link = "https://www.osc.edu/"
+    image = "/img/OSUSC.png"
+  [[params.sponsors]]
+    name = "SR"
+    link = "https://www.storagereview.com/"
+    image = "/img/Storage-Reviews.png"
+  
+  # Selected Publications section.
+  [params.publications_selected]
+    detailed_list = true
+    title = "Selected Publications"
+    subtitle = ""
+
+  # Publications section.
+  # Section will only be displayed if there are publications in `content/publication/`.
+  [params.publications]
+    count = 5
+    detailed_list = false
+    title = "Publications"
+    subtitle = ""
+    str_all = "More Publications"
 
   [[params.slogan_columns]]
     title = "About"
@@ -43,21 +102,6 @@ tag = "tags"
     link = "/approach"
     link_text = "Read more"
     weight = 3
-
-  # Selected Publications section.
-  [params.publications_selected]
-    detailed_list = true
-    title = "Selected Publications"
-    subtitle = ""
-
-  # Publications section.
-  # Section will only be displayed if there are publications in `content/publication/`.
-  [params.publications]
-    count = 5
-    detailed_list = false
-    title = "Publications"
-    subtitle = ""
-    str_all = "More Publications"
 
   # Posts section.
   # Section will only be displayed if there are posts in `content/post/`.
@@ -124,8 +168,70 @@ tag = "tags"
       url = "/#posts"
       weight = 6
 
+  [[menu.main]]
+    name = "Software"
+    weight = 7
+    identifier = "software"
+  [[menu.main]]
+    name = "dhtslib"
+    url = "https://github.com/blachlylab/dhtslib"
+    parent = "software"
+    weight = 1
+  [[menu.main]]
+    name = "nopilesum"
+    url = "https://github.com/blachlylab/nopilesum"
+    parent = "software"
+    weight = 1
+  [[menu.main]]
+    name = "recontig"
+    url = "https://github.com/blachlylab/recontig"
+    parent = "software"
+    weight = 1
+  [[menu.main]]
+    name = "fade"
+    url = "https://github.com/blachlylab/fade"
+    parent = "software"
+    weight = 1
+  [[menu.main]]
+    name = "mucor3"
+    url = "https://github.com/blachlylab/mucor3"
+    parent = "software"
+    weight = 1
+  [[menu.main]]
+    name = "fishnet"
+    url = "https://github.com/blachlylab/fishnet"
+    parent = "software"
+    weight = 1
+  [[menu.main]]
+    name = "maskerade"
+    url = "https://github.com/blachlylab/maskerade"
+    parent = "software"
+    weight = 1
+  [[menu.main]]
+    name = "SABER"
+    url = "https://github.com/blachlylab/SABER"
+    parent = "software"
+    weight = 1
+  [[menu.main]]
+    name = "swiftover"
+    url = "https://github.com/blachlylab/swiftover"
+    parent = "software"
+    weight = 1
+
+  [[menu.main]]
+    name = "Join us"
+    weight = 7
+    identifier = "Join us"
+  [[menu.main]]
+    name = "Vacancies"
+    parent = "Join us"
+    weight = 1
+  [[menu.main]]
+    name = "Internships"
+    parent = "Join us"
+    weight = 1
 
   [[menu.main]]
       name = "Contact"
       url = "/#contact"
-      weight = 7
+      weight = 8

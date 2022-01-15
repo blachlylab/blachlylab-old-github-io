@@ -1,7 +1,7 @@
 +++
 bio = ""
 date = "2016-07-12T15:52:22+02:00"
-id = "kautto"
+id = "Esko Kautto"
 interests = ["Computational Genomics", "Long-read Sequencing Technologies", "Computer Science"]
 name = "Esko Kautto"
 portrait = "/portraits/esko_portrait.png"
